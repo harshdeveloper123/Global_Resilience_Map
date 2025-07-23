@@ -37,7 +37,7 @@ async function fetchData() {
   try{
     const [geores, riskres] = await Promise.all([
       axios.get("https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson"),
-      axios.get("https://raw.githubusercontent.com/hxrsh/geojson/main/inform_sample_2024.json")
+      axios.get("https://raw.githubusercontent.com/harshdeveloper123/Global_Resilience_Map/main/maps/src/data/countryData.json")
     ])
     setgeodata(geores.data);
     setriskdata(riskres.data)
@@ -105,21 +105,20 @@ function geocenter(geometry){
            {geodata?.features.map((feature, idx) => {
           const countryName = feature.properties.ADMIN;
           const center = geocenter(feature.geometry);
-          const risk = riskdata.find(
-            (item) => item.Country.toLowerCase() === countryName.toLowerCase()
+          const risk = riskdata.features.find(
+            (item) => item.properties.name.toLowerCase() === countryName.toLowerCase()
           );
 
           if (!risk) return null;
 
           return (
             <Marker key={idx} position={center}>
-              <Popup>
-                <strong>{countryName}</strong><br />
-                🌍 <strong>Risk Score:</strong> {risk["Risk Score"]}<br />
-                🌪️ Hazard: {risk["Hazard & Exposure"]}<br />
-                ⚠️ Vulnerability: {risk["Vulnerability"]}<br />
-                🚫 Coping Capacity: {risk["Lack of Coping Capacity"]}
-              </Popup>
+             <Popup>
+  <strong>{countryName}</strong><br />
+  🌍 <strong>Disaster Risk:</strong> {risk.properties.disaster_risk}<br />
+  💻 <strong>Digital Readiness:</strong> {risk.properties.digital_readiness_label}<br />
+  📊 <strong>Readiness Score:</strong> {risk.properties.digital_readiness_score}
+</Popup>
             </Marker>
           );
         })}
