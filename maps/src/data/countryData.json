@@ -1,0 +1,397 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "United States",
+        "disaster_risk": "Medium",
+        "digital_readiness_label": "Strong",
+        "digital_readiness_score": 91
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.5795, 39.8283]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "India",
+        "disaster_risk": "High",
+        "digital_readiness_label": "Moderate",
+        "digital_readiness_score": 68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.9629, 20.5937]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Japan",
+        "disaster_risk": "High",
+        "digital_readiness_label": "Strong",
+        "digital_readiness_score": 93
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.2529, 36.2048]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brazil",
+        "disaster_risk": "Medium",
+        "digital_readiness_label": "Moderate",
+        "digital_readiness_score": 65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.9253, -14.2350]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Germany",
+        "disaster_risk": "Low",
+        "digital_readiness_label": "Strong",
+        "digital_readiness_score": 89
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.4515, 51.1657]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nigeria",
+        "disaster_risk": "High",
+        "digital_readiness_label": "Weak",
+        "digital_readiness_score": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.6753, 9.0820]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Russia",
+        "disaster_risk": "Medium",
+        "digital_readiness_label": "Moderate",
+        "digital_readiness_score": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.3188, 61.5240]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Australia",
+        "disaster_risk": "Low",
+        "digital_readiness_label": "Strong",
+        "digital_readiness_score": 88
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.7751, -25.2744]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "China",
+        "disaster_risk": "High",
+        "digital_readiness_label": "Moderate",
+        "digital_readiness_score": 73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.1954, 35.8617]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "United Kingdom",
+        "disaster_risk": "Low",
+        "digital_readiness_label": "Strong",
+        "digital_readiness_score": 87
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.4359, 55.3781]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kenya",
+        "disaster_risk": "High",
+        "digital_readiness_label": "Weak",
+        "digital_readiness_score": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.9062, -0.0236]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "France",
+        "disaster_risk": "Low",
+        "digital_readiness_label": "Strong",
+        "digital_readiness_score": 86
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2137, 46.2276]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Africa",
+        "disaster_risk": "Medium",
+        "digital_readiness_label": "Moderate",
+        "digital_readiness_score": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.9375, -30.5595]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mexico",
+        "disaster_risk": "High",
+        "digital_readiness_label": "Moderate",
+        "digital_readiness_score": 62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-102.5528, 23.6345]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canada",
+        "disaster_risk": "Low",
+        "digital_readiness_label": "Strong",
+        "digital_readiness_score": 90
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.3468, 56.1304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Italy",
+        "disaster_risk": "Medium",
+        "digital_readiness_label": "Strong",
+        "digital_readiness_score": 82
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.5674, 41.8719]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bangladesh",
+        "disaster_risk": "High",
+        "digital_readiness_label": "Weak",
+        "digital_readiness_score": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.3563, 23.6849]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Argentina",
+        "disaster_risk": "Medium",
+        "digital_readiness_label": "Moderate",
+        "digital_readiness_score": 67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-63.6167, -38.4161]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Indonesia",
+        "disaster_risk": "High",
+        "digital_readiness_label": "Moderate",
+        "digital_readiness_score": 59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.9213, -0.7893]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Turkey",
+        "disaster_risk": "High",
+        "digital_readiness_label": "Moderate",
+        "digital_readiness_score": 65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.2433, 38.9637]
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pakistan",
+        "disaster_risk": "High",
+        "digital_readiness_label": "Weak",
+        "digital_readiness_score": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [69.3451, 30.3753]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Netherlands",
+        "disaster_risk": "Low",
+        "digital_readiness_label": "Strong",
+        "digital_readiness_score": 88
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.2913, 52.1326]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ukraine",
+        "disaster_risk": "High",
+        "digital_readiness_label": "Moderate",
+        "digital_readiness_score": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.1656, 48.3794]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Korea",
+        "disaster_risk": "Medium",
+        "digital_readiness_label": "Strong",
+        "digital_readiness_score": 92
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.7669, 35.9078]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spain",
+        "disaster_risk": "Low",
+        "digital_readiness_label": "Strong",
+        "digital_readiness_score": 85
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7492, 40.4637]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Egypt",
+        "disaster_risk": "High",
+        "digital_readiness_label": "Moderate",
+        "digital_readiness_score": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.8025, 26.8206]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poland",
+        "disaster_risk": "Medium",
+        "digital_readiness_label": "Moderate",
+        "digital_readiness_score": 68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.1451, 51.9194]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vietnam",
+        "disaster_risk": "High",
+        "digital_readiness_label": "Moderate",
+        "digital_readiness_score": 58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2772, 14.0583]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Colombia",
+        "disaster_risk": "Medium",
+        "digital_readiness_label": "Moderate",
+        "digital_readiness_score": 61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.2973, 4.5709]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philippines",
+        "disaster_risk": "High",
+        "digital_readiness_label": "Moderate",
+        "digital_readiness_score": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.7740, 12.8797]
+      }
+    }
+  ]
+}
